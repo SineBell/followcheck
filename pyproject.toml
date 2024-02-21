@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "test_package_sinebell"
-version = "1.1.0"
+version = "1.1.1"
 description = "Get a list of Instagram accounts not following you back"
 authors = [
   { name = "Nicola Dengo", email = "mail.sinebell@gmail.com" },
@@ -23,4 +23,4 @@ requires-python = ">=3.7"
 "Bug Tracker" = "https://github.com/SineBell/followcheck/issues"
 
 [project.scripts]
-cli-name = "test_package_sinebell.followcheck:main"
+test_package_sinebell = "test_package_sinebell.followcheck:main"
